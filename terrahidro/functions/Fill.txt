@@ -1,0 +1,8 @@
+fill
+Fill
+DEM Tools
+demtools
+Fills voids of a DEM data (eg SRTM 30m) using a reference DEM data (eg SRTM 90m).
+QgsProcessingParameterRasterLayer|inputdem|Input DEM|None|False
+QgsProcessingParameterRasterLayer|inputreferencedem|Input Reference DEM|None|False
+QgsProcessingParameterRasterDestination|outputdem|Output DEM|None|False

@@ -1,0 +1,8 @@
+segments
+Segments
+Drainage Tools
+drainagetools
+Generates the segments from a D8 flow directions grid and a drainage network grid.
+QgsProcessingParameterRasterLayer|inputd8|Input D8|None|False
+QgsProcessingParameterRasterLayer|inputdrainage|Input Drainage Network|None|False
+QgsProcessingParameterRasterDestination|outputsegments|Output Segments|None|False

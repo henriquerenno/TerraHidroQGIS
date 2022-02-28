@@ -1,0 +1,8 @@
+d8drainagev
+D8DrainageV
+Drainage Tools
+drainagetools
+Generates the drainage network vectors from a drainage network grid.
+QgsProcessingParameterRasterLayer|inputd8drainage|Input D8 Drainage Network|None|False
+QgsProcessingParameterRasterLayer|inputd8|Input D8|None|False
+QgsProcessingParameterVectorDestination|outputdrainage|Output Vector Drainage Network|QgsProcessing.TypeVectorLine|None|False

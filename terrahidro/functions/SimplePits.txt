@@ -1,0 +1,7 @@
+simplepits
+SimplePits
+DEM Tools
+demtools
+Tries to remove each pit by filling the pit cell. If this procedure does not generate a new pit, this pit is removed. Warning: This operation does not generate a pitless DEM.
+QgsProcessingParameterRasterLayer|inputdem|Input DEM|None|False
+QgsProcessingParameterRasterDestination|outputdem|Output DEM|None|False

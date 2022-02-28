@@ -1,0 +1,8 @@
+mouths
+Mouths
+Drainage Tools
+drainagetools
+Generates the drainage mouths from a D8 flow directions grid and a drainage network grid.
+QgsProcessingParameterRasterLayer|inputd8|Input D8|None|False
+QgsProcessingParameterRasterLayer|inputdrainage|Input Drainage Network|None|False
+QgsProcessingParameterFileDestination|outputmouths|Output Mouths|TXT files (*.txt *.TXT)|None|False

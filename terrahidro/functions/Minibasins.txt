@@ -1,0 +1,8 @@
+minibasins
+Minibasins
+Basin Tools
+basintools
+Generates the minibasins from a D8 flow directions grid and a segments network grid.
+QgsProcessingParameterRasterLayer|inputd8|Input D8|None|False
+QgsProcessingParameterRasterLayer|inputsegments|Input Segments|None|False
+QgsProcessingParameterRasterDestination|outputminibasins|Output Minibasins|None|False

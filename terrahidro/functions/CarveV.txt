@@ -1,0 +1,7 @@
+carvev
+CarveV
+DEM Tools
+demtools
+Finds and carves flat areas from a DEM in V-shaped format.
+QgsProcessingParameterRasterLayer|inputdem|Input DEM|None|False
+QgsProcessingParameterRasterDestination|outputdem|Output DEM|None|False

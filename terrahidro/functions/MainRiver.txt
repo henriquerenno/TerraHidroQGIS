@@ -1,0 +1,10 @@
+mainriver
+MainRiver
+Drainage Tools
+drainagetools
+Generates the main river from an D8 upstream flow directions grid, a drainage grid, contributing area grid and a mouth text file.
+QgsProcessingParameterRasterLayer|inputd8upstream|Input D8 Upstream|None|False
+QgsProcessingParameterRasterLayer|inputdrainage|Input Drainage Network|None|False
+QgsProcessingParameterRasterLayer|inputd8ca|Input D8 Contributing Area|None|False
+QgsProcessingParameterFile|inputmouth|Input Mouth|QgsProcessingParameterFile.File|txt|None|False
+QgsProcessingParameterRasterDestination|outputmainriver|Output Main River|None|False

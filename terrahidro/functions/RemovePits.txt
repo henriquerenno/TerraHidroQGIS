@@ -1,0 +1,7 @@
+removepits
+RemovePits
+DEM Tools
+demtools
+This is the preferred procedure to remove all pits from a DEM. This is equivalent to perform the carvev, simplepits and pfs precedures in sequence. This operation generates a pitless DEM.
+QgsProcessingParameterRasterLayer|inputdem|Input DEM|None|False
+QgsProcessingParameterRasterDestination|outputdem|Output DEM|None|False

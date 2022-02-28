@@ -1,0 +1,7 @@
+d8ca
+D8ContributingArea
+Flow Tools
+flowtools
+Generates the contributing area grid from a D8 flow directions grid.
+QgsProcessingParameterRasterLayer|inputd8|Input D8|None|False
+QgsProcessingParameterRasterDestination|outputd8ca|Output D8 Contributing Area|None|False

@@ -1,0 +1,9 @@
+sand
+SAND
+Flow Tools
+flowtools
+Generates the SAND slope grid from a DEM grid, a D8 flow directions grid and a drainage network grid.
+QgsProcessingParameterRasterLayer|inputdem|Input DEM|None|False
+QgsProcessingParameterRasterLayer|inputd8|Input D8|None|False
+QgsProcessingParameterRasterLayer|inputdrainage|Input Drainage Network|None|False
+QgsProcessingParameterRasterDestination|outputsand|Output SAND|None|False

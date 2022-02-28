@@ -1,0 +1,8 @@
+ottobasins
+OttoBasins
+Basin Tools
+basintools
+Generates the otto codification of basins from an D8 upstream flow directions grid, a Otto rivers grid.
+QgsProcessingParameterRasterLayer|inputd8|Input D8|None|False
+QgsProcessingParameterRasterLayer|inputottorivers|Input Otto Rivers|None|False
+QgsProcessingParameterRasterDestination|outputottobasins|Output Otto Basins|None|False

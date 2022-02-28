@@ -1,0 +1,7 @@
+d8
+D8
+Flow Tools
+flowtools
+Generates the D8 flow directions grid from a pitless DEM.
+QgsProcessingParameterRasterLayer|inputdem|Input DEM|None|False
+QgsProcessingParameterRasterDestination|outputd8|Output D8|None|False

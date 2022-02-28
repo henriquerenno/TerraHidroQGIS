@@ -1,0 +1,8 @@
+flowpath
+FlowPath
+Flow Tools
+flowtools
+Generates flow paths from sources.
+QgsProcessingParameterRasterLayer|inputd8|Input D8|None|False
+QgsProcessingParameterFeatureSource|inputsources|Input Sources|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterRasterDestination|outputflowpath|Output Flow Path|None|False

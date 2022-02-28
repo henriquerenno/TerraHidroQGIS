@@ -1,0 +1,8 @@
+d8slope
+D8Slope
+Flow Tools
+flowtools
+Generates slope from D8 flow directions.
+QgsProcessingParameterRasterLayer|inputdem|Input DEM|None|False
+QgsProcessingParameterRasterLayer|inputd8|Input D8|None|False
+QgsProcessingParameterRasterDestination|outputd8slope|Output D8 Slope|None|False

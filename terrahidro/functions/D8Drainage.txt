@@ -1,0 +1,8 @@
+d8drainage
+D8Drainage
+Drainage Tools
+drainagetools
+Generates the drainage network grid from a contributing area grid.
+QgsProcessingParameterRasterLayer|inputd8ca|Input D8 Contributing Area|None|False
+QgsProcessingParameterRasterDestination|outputdrainage|Output Drainage Network|None|False
+QgsProcessingParameterNumber|threshold|Threshold Value|QgsProcessingParameterNumber.Double|None|False|None|None

@@ -1,0 +1,8 @@
+orderedmouths
+OrderedMouths
+Drainage Tools
+drainagetools
+Generates the ordered drainage mouths by accumulated area from an accumulated area grid and a mouths text file.
+QgsProcessingParameterRasterLayer|inputd8ca|Input D8 Contributing Area|None|False
+QgsProcessingParameterFile|inputmouths|Input Mouths|QgsProcessingParameterFile.File|txt|None|False
+QgsProcessingParameterFileDestination|outputorderedmouths|Output Ordered Mouths|TXT files (*.txt *.TXT)|None|False

@@ -1,0 +1,11 @@
+ottorivers
+OttoRivers
+Drainage Tools
+drainagetools
+Generates the otto codification of rivers from an D8 upstream flow directions grid, a drainage grid, contributing area grid and a mouths text file.
+QgsProcessingParameterRasterLayer|inputd8upstream|Input D8 Upstream|None|False
+QgsProcessingParameterRasterLayer|inputdrainage|Input Drainage Network|None|False
+QgsProcessingParameterRasterLayer|inputd8ca|Input D8 Contributing Area|None|False
+QgsProcessingParameterFile|inputmouths|Input Mouths|QgsProcessingParameterFile.File|txt|None|False
+QgsProcessingParameterRasterDestination|outputottorivers|Output Otto Rivers|None|False
+QgsProcessingParameterFileDestination|outputnewlevelmouths|Output New Level Mouths|TXT files (*.txt *.TXT)|None|False

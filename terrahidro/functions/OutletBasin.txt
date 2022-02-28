@@ -1,0 +1,9 @@
+outletbasin
+OutletBasin
+Basin Tools
+basintools
+Generates the outlet basin from a D8 flow directions grid, and row and column of an outlet point.
+QgsProcessingParameterRasterLayer|inputd8|Input D8|None|False
+QgsProcessingParameterNumber|outletrow|Outlet Row|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterNumber|outletcol|Outlet Column|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterRasterDestination|outputoutletbasin|Output Outlet Basin|None|False

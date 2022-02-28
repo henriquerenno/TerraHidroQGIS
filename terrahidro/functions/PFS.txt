@@ -1,0 +1,7 @@
+pfs
+PFS
+DEM Tools
+demtools
+Removes all pits using the PFS algorithm to carve a path to an outlet cell. This operation generates a pitless DEM.
+QgsProcessingParameterRasterLayer|inputdem|Input DEM|None|False
+QgsProcessingParameterRasterDestination|outputdem|Output DEM|None|False

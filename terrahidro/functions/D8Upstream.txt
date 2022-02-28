@@ -1,0 +1,7 @@
+d8toupstream
+D8Upstream
+Flow Tools
+flowtools
+Generates the upstream flow directions from a D8 flow directions grid.
+QgsProcessingParameterRasterLayer|inputd8|Input D8|None|False
+QgsProcessingParameterRasterDestination|outputd8upstream|Output D8 Upstream|None|False

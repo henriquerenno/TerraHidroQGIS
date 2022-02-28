@@ -1,0 +1,11 @@
+agreedem
+AgreeDEM
+DEM Tools
+demtools
+Modifies a DEM to match a specified drainage network.
+QgsProcessingParameterRasterLayer|inputdem|Input DEM|None|False
+QgsProcessingParameterFeatureSource|inputdrainage|Input Drainage|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterNumber|buffer|Buffer Size|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterNumber|smooth|Smooth Factor|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|sharp|Sharp Factor|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterRasterDestination|outputdem|Output DEM|None|False

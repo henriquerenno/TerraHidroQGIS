@@ -1,0 +1,9 @@
+strahler
+Strahler
+Drainage Tools
+drainagetools
+Generates the Strahler stream order from an D8 flow directions grid, a drainage grid, and a sources text file.
+QgsProcessingParameterRasterLayer|inputd8|Input D8|None|False
+QgsProcessingParameterRasterLayer|inputdrainage|Input Drainage Network|None|False
+QgsProcessingParameterFile|inputsources|Input Sources|QgsProcessingParameterFile.File|txt|None|False
+QgsProcessingParameterRasterDestination|outputstrahler|Output Strahler Stream Order|None|False

@@ -1,0 +1,12 @@
+d8upscale
+D8Upscale
+Flow Tools
+flowtools
+Upscales a drainage network grid.
+QgsProcessingParameterRasterLayer|inputd8|Input D8|None|False
+QgsProcessingParameterRasterLayer|inputd8ca|Input D8 Contributing Area|None|False
+QgsProcessingParameterRasterDestination|outputupscale|Output Upscale Drainage Network|None|False
+QgsProcessingParameterRasterDestination|outputoutletpixels|Output Outlet Pixels|None|False
+QgsProcessingParameterNumber|factor|Upscale Factor|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterNumber|mupf|Minimum Upstream Flow Path|QgsProcessingParameterNumber.Integer|None|True|None|None
+QgsProcessingParameterNumber|at|Area Threshold|QgsProcessingParameterNumber.Integer|None|True|None|None
