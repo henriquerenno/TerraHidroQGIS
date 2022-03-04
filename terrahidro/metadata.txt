@@ -4,7 +4,7 @@
 
 [general]
 name=TerraHidro
-qgisMinimumVersion=3.0
+qgisMinimumVersion=3.18.0
 description=The TerraHidro plugin provides an interface for the TerraHidro console used in hydrological applications.
 version=0.1
 author=Henrique Rennó de Azeredo Freitas (INPE)
